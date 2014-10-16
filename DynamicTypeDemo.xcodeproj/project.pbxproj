@@ -12,8 +12,9 @@
 		92C00AE319F0408900F817C8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C00AE219F0408900F817C8 /* ViewController.m */; };
 		92C00AE619F0408900F817C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92C00AE419F0408900F817C8 /* Main.storyboard */; };
 		92C00AE819F0408900F817C8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92C00AE719F0408900F817C8 /* Images.xcassets */; };
-		92C00AEB19F0408900F817C8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92C00AE919F0408900F817C8 /* LaunchScreen.xib */; };
 		92C00AF719F0408900F817C8 /* DynamicTypeDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C00AF619F0408900F817C8 /* DynamicTypeDemoTests.m */; };
+		92C00B0219F0636A00F817C8 /* NSString+LoremIpsum.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C00B0119F0636A00F817C8 /* NSString+LoremIpsum.m */; };
+		92C00B0519F0674200F817C8 /* UIFont+DynamicTypeProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C00B0419F0674200F817C8 /* UIFont+DynamicTypeProxy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +37,13 @@
 		92C00AE219F0408900F817C8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		92C00AE519F0408900F817C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		92C00AE719F0408900F817C8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		92C00AEA19F0408900F817C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		92C00AF019F0408900F817C8 /* DynamicTypeDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DynamicTypeDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		92C00AF519F0408900F817C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		92C00AF619F0408900F817C8 /* DynamicTypeDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DynamicTypeDemoTests.m; sourceTree = "<group>"; };
+		92C00B0019F0636A00F817C8 /* NSString+LoremIpsum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+LoremIpsum.h"; sourceTree = "<group>"; };
+		92C00B0119F0636A00F817C8 /* NSString+LoremIpsum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+LoremIpsum.m"; sourceTree = "<group>"; };
+		92C00B0319F0674200F817C8 /* UIFont+DynamicTypeProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+DynamicTypeProxy.h"; sourceTree = "<group>"; };
+		92C00B0419F0674200F817C8 /* UIFont+DynamicTypeProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+DynamicTypeProxy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,8 +91,11 @@
 				92C00AE219F0408900F817C8 /* ViewController.m */,
 				92C00AE419F0408900F817C8 /* Main.storyboard */,
 				92C00AE719F0408900F817C8 /* Images.xcassets */,
-				92C00AE919F0408900F817C8 /* LaunchScreen.xib */,
 				92C00ADA19F0408900F817C8 /* Supporting Files */,
+				92C00B0019F0636A00F817C8 /* NSString+LoremIpsum.h */,
+				92C00B0119F0636A00F817C8 /* NSString+LoremIpsum.m */,
+				92C00B0319F0674200F817C8 /* UIFont+DynamicTypeProxy.h */,
+				92C00B0419F0674200F817C8 /* UIFont+DynamicTypeProxy.m */,
 			);
 			path = DynamicTypeDemo;
 			sourceTree = "<group>";
@@ -200,7 +207,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				92C00AE619F0408900F817C8 /* Main.storyboard in Resources */,
-				92C00AEB19F0408900F817C8 /* LaunchScreen.xib in Resources */,
 				92C00AE819F0408900F817C8 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,7 +225,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92C00B0219F0636A00F817C8 /* NSString+LoremIpsum.m in Sources */,
 				92C00AE319F0408900F817C8 /* ViewController.m in Sources */,
+				92C00B0519F0674200F817C8 /* UIFont+DynamicTypeProxy.m in Sources */,
 				92C00AE019F0408900F817C8 /* AppDelegate.m in Sources */,
 				92C00ADD19F0408900F817C8 /* main.m in Sources */,
 			);
@@ -250,14 +258,6 @@
 				92C00AE519F0408900F817C8 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		92C00AE919F0408900F817C8 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				92C00AEA19F0408900F817C8 /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -343,7 +343,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = DynamicTypeDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -353,7 +355,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = DynamicTypeDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
